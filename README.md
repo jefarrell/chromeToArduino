@@ -8,8 +8,8 @@
 ##### Features a Chrome extension and node server speaking to bluetooth serial device & Arduino
 ##### [Adafruit Bluefruit EZLink](http://www.adafruit.com/product/1588) connected to Arduino Micro with [vibration motor](https://catalog.precisionmicrodrives.com/order-parts/product/304-109-5mm-vibration-motor-8mm-type)
   
-##### Content script > click function works universally, ad hover functionality currently being tested on NYT front page
-##### Schematic coming soon
+###### Content script > click function works universally, ad hover functionality currently being tested on NYT front page
+###### Schematic coming soon
 
   
     clone repo
