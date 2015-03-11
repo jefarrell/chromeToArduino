@@ -7,8 +7,10 @@
 ***
 ##### Features a Chrome extension and node server speaking to bluetooth serial device & Arduino
 ##### [Adafruit Bluefruit EZLink](http://www.adafruit.com/product/1588) connected to Arduino Micro with [vibration motor](https://catalog.precisionmicrodrives.com/order-parts/product/304-109-5mm-vibration-motor-8mm-type)
-######Information flow: Chrome extension > XMLHTTP request > node server > node serial to Bluefruit EZLink > Arduino
-Content script > click function works universally, ad hover functionality currently being tested on NYT front page
+
+Information flow: Chrome extension > XMLHTTP request > node server > node serial to Bluefruit EZLink > Arduino
+
+Content-script click function works universally.  Ad hover functionality currently being tested on NYT front page, and is listed as an example of potential interactions that are possible.
 
 Schematic coming soon
 
