@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////
+///---Chrome Extension to Arduino---///////////////
+///---Adapted from code by Tom Igoe---/////////////
+///////////////////////////////////////////////////
 
 var express = require('express')
 var app = express()
@@ -10,7 +14,6 @@ var serialport = require("serialport"),
 
 var myPort = new SerialPort(portName, { 
 	baudRate: 9600,
-	
 	parser: serialport.parsers.readline('\r\n')
 });
  
