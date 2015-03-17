@@ -18,8 +18,8 @@ Schematic coming soon
     clone repo
     load unpacked adHover Chrome extension
     npm install
-    ls /dev/cu.*   <- find Adafruit EZ Link
-    node server.js /dev/cu.AdafruitEZ-Linkxxxx-xxxx (whatever you found in previous step)
+    ls /dev/tty.*   <- find Adafruit EZ Link
+    node server.js /dev/tty.AdafruitEZ-Linkxxxx-xxxx (whatever you found in previous step)
   
 
 ##### This was the best method I found for taking Chrome extension interactions out of the browser.  Please let me know if you have discovered other successful methods.
